@@ -1,0 +1,122 @@
+{
+  "swagger": "2.0",
+  "paths": {
+    "/add": {
+      "post": {
+        "tags": [
+          "add"
+        ],
+        "parameters": [
+          {
+            "description": "",
+            "in": "query",
+            "name": "intA",
+            "type": "int"
+          },
+          {
+            "description": "",
+            "in": "query",
+            "name": "intB",
+            "type": "int"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "x-auth-type": "Application \u0026 Application User",
+        "x-throttling-tier": "Unlimited"
+      }
+    },
+    "/multiply": {
+      "post": {
+        "tags": [
+          "multiply"
+        ],
+        "parameters": [
+          {
+            "description": "",
+            "in": "query",
+            "name": "intA",
+            "type": "int"
+          },
+          {
+            "description": "",
+            "in": "query",
+            "name": "intB",
+            "type": "int"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "x-auth-type": "Application \u0026 Application User",
+        "x-throttling-tier": "Unlimited"
+      }
+    },
+    "/subtract": {
+      "post": {
+        "tags": [
+          "subtract"
+        ],
+        "parameters": [
+          {
+            "description": "",
+            "in": "query",
+            "name": "intA",
+            "type": "int"
+          },
+          {
+            "description": "",
+            "in": "query",
+            "name": "intB",
+            "type": "int"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "x-auth-type": "Application \u0026 Application User",
+        "x-throttling-tier": "Unlimited"
+      }
+    },
+    "/divide": {
+      "post": {
+        "tags": [
+          "divide"
+        ],
+        "parameters": [
+          {
+            "description": "",
+            "in": "query",
+            "name": "intA",
+            "type": "int"
+          },
+          {
+            "description": "",
+            "in": "query",
+            "name": "intB",
+            "type": "int"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "x-auth-type": "Application \u0026 Application User",
+        "x-throttling-tier": "Unlimited"
+      }
+    }
+  },
+  "info": {
+    "title": "Calculator",
+    "version": "1.0.0"
+  },
+  "definitions": {}
+}
